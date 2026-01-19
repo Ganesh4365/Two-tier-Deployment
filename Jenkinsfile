@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Clone repo's') {
+        stage('Clone repo') {
             steps {
                 git branch: 'main', url: 'https://github.com/Ganesh4365/Two-tier-Deployment.git'
             }
